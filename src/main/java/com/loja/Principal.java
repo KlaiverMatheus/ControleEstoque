@@ -17,7 +17,7 @@ public class Principal {
             System.out.println("2 - Dar Baixa");
             System.out.println("3 - Sair");
             System.out.print("Digite a opcao: ");
-            
+            System.out.println("---------------------------");
             int opcao = leitor.nextInt();
             
             if (opcao == 3) {
