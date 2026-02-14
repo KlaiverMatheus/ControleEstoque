@@ -9,7 +9,7 @@ public class Principal {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
         
-        System.out.println("--- SISTEMA DE CONTROL DE ESTOQUE ---");
+        System.out.println("--- SISTEMA DE CONTROLE DE ESTOQUE ---");
         
         while(true) {
             System.out.println("\nO que voce quer fazer?");
@@ -55,7 +55,7 @@ public class Principal {
                 int linhasAfetadas = stmt.executeUpdate();
                 
                 if(linhasAfetadas > 0) {
-                    System.out.println("Estoque atualizado com suceso.");
+                    System.out.println("Estoque atualizado com sucesso.");
                 } else {
                     System.out.println("nao encontrado esse produto ID " + idProd + " no banco.");
                 }
